@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Clima</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="card">
+            <div class="card-header">
+                <h1 id="weather-location" class="h3 text-center text-primary">Ciudad del Este</h1>
+            </div>
+            <div class="card-body">
+                <div class="row justify-center">
+                    <div class="col-4">
+                        <h3 id="weather-string" class="h2">13°</h3>
+                    </div>
+                    <div class="col-8">
+                        <h3 id="weather-description" class="h2 text-center text-danger">Cielo despejado</h3>
+                    </div>
+                </div>
+                <ul class="list-group mt-3">
+                    <li id="weather-humidity" class="list-group-item"></li>
+                    <li id="weather-wind" class="list-group-item"></li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <form id="weather-form">
+                    <div class="form-group">
+                        <input class="form-control" type="text" autocomplete="off" placeholder="Escriba la Ciudad"
+                            name="city">
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-primary w-100" type="submit" value="Buscar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
